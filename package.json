@@ -1,0 +1,22 @@
+{
+  "ava": {
+    "babel": {
+      "plugins": [
+        "transform-es2015-modules-commonjs",
+        "transform-flow-strip-types"
+      ]
+    },
+    "require": [
+      "babel-register"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "sinon": "^1.17.6"
+  },
+  "private": true
+}
